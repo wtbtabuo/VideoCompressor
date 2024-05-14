@@ -16,7 +16,7 @@ sudo apt-get install ffmpeg
 ```
 ### 実行ディレクトリ
 ```
-recursion-training/VideoCompressor/VideoCompressor/
+このレポジトリのルート
 client.py、7行目のFILE_PATHにて、使用するMP4ファイルが存在するディレクトリを指定する
 デフォルトではinputフォルダ内のmp4ファイルを読み込む
 ```
@@ -33,5 +33,8 @@ python client.py
 ### 使用方法
 1. サーバー、クライアントの順番で起動する
 2. クライアント側のターミナルでmp4ファイルを選択する
+![alt text](images/image_1.png)
 3. mp4ファイルに対しての操作を選択する（ex. 圧縮、解像度の変更など）
+![alt text](images/image_2.png)
 4. サーバー側にリクエストが送られ、成功するとoutputフォルダに編集済みのファイルが保存される
+![alt text](images/image_3.png)
